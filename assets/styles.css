@@ -1,0 +1,152 @@
+/*General Styles*/
+
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', Helvetica, Sans
+}
+ul {
+	margin: 0;
+}
+p {
+	
+}
+a, a:hover {
+	color: #377037;
+	text-decoration: none;
+}
+h4 {
+	font-size: 20px;
+}
+::selection {
+	background: #377037; /* WebKit/Blink Browsers */
+	color: #fff;
+}
+::-moz-selection {
+	background: #377037; /* Gecko Browsers */
+	color: #fff;
+}
+/*NAV STYLES*/
+nav {
+	padding-top: 8px;
+	padding-left: 90px;
+	position: fixed;
+	height: 45px;
+	width: 100%;
+	background: white;
+}
+.nav-marker:hover {
+	color: green;
+}
+nav ul {
+	list-style-type: none;
+	display: inline;
+}
+ul li {
+	display: inline;
+}
+nav .nav-item {
+	color: #000;
+	padding: 12px 12px;
+	font-size: 16px;
+}
+nav .nav-item:hover {
+	color: #377037;
+	border-top: 4px solid #377037;
+}
+.navbar-brand {
+	width: 85px;
+}
+.nav-logo img { 
+	width: 90px;
+}
+.nav-right {
+	margin-left: 40%;
+}
+.nav-right li {
+	font-size: 14px;
+	font-weight: bolder;
+	padding: 14px 5px;
+}
+.main-container {
+	padding-top: 60px;
+}
+.background-header {
+	height: 500px;
+	background: url(https://d1a3f4spazzrp4.cloudfront.net/chameleon-assets/v1.0.0/c70b8eba-a194-42c9-b734-00bd27cda456/desk2x.jpg) !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center center !important;
+}
+.top-header {
+	padding-left: 235px;
+	padding-top: 45px;
+	padding-bottom: 60px;
+}
+.top-header h1 {
+	font-size: 45px;
+	margin: 0;
+}
+.top-header h2 {
+	font-size: 45px;
+	margin: 0;
+	font-weight: 100;
+}
+.btn-driver {
+	background-color: #377037;
+	border-color: #377037;
+	color: #fff;
+    padding: 12px 20px;
+    font-size: 12px;
+    transition: 0.3s;
+}
+.btn-driver:hover {
+	background-color: #285228;
+    border-color: #285228;
+    color: #fff;
+}
+/*Section 2*/
+.section-2 {
+	padding-top: 90px;
+}
+.info {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 240px;
+	padding-right: 12%;
+	padding-bottom: 80px;
+}
+.info-block {
+	width: 33%;
+	display: inline-block;
+	position: relative;
+	float: left;
+	padding-bottom: 30px;
+}
+.info-block img{
+	width: auto;
+	height: 140px;
+}
+.info-block h4 {
+	font-size: 28px;
+	margin: 0;
+}
+.info-block p {
+	padding-right: 45px;
+}
+.btn-driver svg {
+	margin-top: -10px;
+	margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
